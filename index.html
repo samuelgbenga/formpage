@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="title">
+        Relationship Survey Form
+    </header>
+    <div id="description">
+        Your Are Now Doing yourself The Good Of Knowing Your Emotional Status
+    </div>
+    <div class="form-container">
+        <form action="#" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="" id="name" placeholder="e.g Samuel Gbenga" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="text" name="email" id="email" placeholder="e.g samuel@gmail.com" required>
+            <label for="number" id="number-label">Age (compulsory)</label>
+            <input type="number" name="number" min="10" max="30" id="number" placeholder="e.g 18">
+            <div class="for-selection">Choose Your Current Relationship Status</div>
+            <select name="Relationship-status" id="dropdown" required>
+                <option disabled selected value> choose your status</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="homo">Homo</option>
+                <option value="lonely">Lonely</option>
+                <option value="wealthy">Wealthy</option>
+            </select>
+            <div class="for-radio">Select A Future Relationship Status That Might Hold? </div>
+            <div class="radio-container">
+            <div class="future-status">
+                <input type="radio" name="future-status">
+                <label for="breakup" >Will Break Up</label>
+            </div>
+            <div class="future-status">
+                <input type="radio" name="future-status">
+                <label for="continue" class="future-status">Will Contiue</label>
+            </div>
+            <div class="future-status">
+                <input type="radio" name="future-status">
+                <label for="momentary" class="future-status">Only Momentary</label>
+            </div>
+            <div class="future-status">
+                <input type="radio" name="future-status">
+                <label for="forever" class="future-status">Will Last Forever</label>
+            </div>
+            </div>
+            <div class="checkbox-container">
+                <div class="for-checkbox"> What might be the cause of you current 
+                    Relationship status?
+                </div>
+                <div class="checkbox-innter-container">
+                    <div class="checkbox">
+                        <input type="checkbox" value="timid">
+                        <label for="cause1">Timidity</label>
+                    </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="anger">
+                    <label for="cause2">Anger Issues</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="not-good">
+                    <label for="cause3"> Not Good Enough</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="pride">
+                    <label for="cause4">Too Much Pride</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="fear">
+                    <label for="cause5">Fear Of Heart Break</label>
+                </div>
+                </div>
+                <div class="textarea">
+                    <div class="textarea-description">
+                        <label for="comment">In few words Describe yourself Relationship Life.</label>
+                    </div>
+                        
+                        <textarea name="describe-you" id="describe-you" cols="30" rows="5" >welcome
+                        </textarea>
+                    </div>
+                
+                    <button type="submit" id="submit" > submit</button>
+                    
+                    
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
